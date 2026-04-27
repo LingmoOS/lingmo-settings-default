@@ -1,0 +1,11 @@
+deepin-settings-default (1.0.0+deb13u1) unstable; urgency=medium
+
+  * align branding metadata and distribution resources with Deepin 25
+
+ -- Codex <codex@openai.com>  Fri, 10 Apr 2026 12:20:00 +0800
+
+deepin-settings-default (1.0.0) unstable; urgency=medium
+
+  * Initial release
+
+ -- April Lu <apr3vau@outlook.com>  Mon, 23 Jun 2025 12:04:00 +0800
