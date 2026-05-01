@@ -6,7 +6,7 @@ ARCH_BUILD :=$(shell uname -m)
 all: build
 
 build:
-	# --- From old deepin-desktop-base ---
+	# --- From old lingmo-desktop-base ---
         ifeq (${ARCH_BUILD}, mipsel)
 		cp -v files/appstore_loongson.json files/appstore.json
         else ifeq (${ARCH_BUILD}, mips64)
@@ -54,7 +54,7 @@ install:
 	for i in `ls $(DESTDIR)/usr/share/fontconfig/conf.avail/ | grep .conf$$`;do \
 		ln -sf /usr/share/fontconfig/conf.avail/$${i} $(DESTDIR)/etc/fonts/conf.d/$${i}; \
 	done
-	# --- From old deepin-desktop-base ---
+	# --- From old lingmo-desktop-base ---
 	mkdir -p ${DESTDIR}/etc
 	mkdir -p ${DESTDIR}/usr/share/i18n
 	mkdir -p ${DESTDIR}/usr/share/distro-info

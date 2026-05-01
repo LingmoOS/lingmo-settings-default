@@ -28,11 +28,11 @@ Suggests:
 Conflicts:
  chrome-default-settings,
  deepin-default-settings,
- deepin-desktop-base,
+ lingmo-desktop-base,
  deepin-desktop-server,
 Replaces:
  deepin-default-settings,
- deepin-desktop-base,
+ lingmo-desktop-base,
  deepin-default-settings-network,
  deepinop,
 Description: Default settings for deepin operating system
