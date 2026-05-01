@@ -1,10 +1,11 @@
-Source: deepin-settings-default
+Source: lingmo-settings-default
 Section: admin
 Priority: optional
-Maintainer: sysdev <sysdev@deepin.com>
-Standards-Version: 4.5.1
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends:
  debhelper-compat (= 12),
+Standards-Version: 4.5.0
+Homepage: https://github.com/LingmoOS/lingmo-settings-default
 
 Package: deepin-settings-default
 Architecture: all
