@@ -9,7 +9,7 @@ Release:        %{specrelease}
 Summary:        default settings for deepin destkop environment
 License:        GPLv3
 URL:            https://github.com/linuxdeepin/default-settings
-Source0:        default-settings-%{version}.tar.xz
+Source0:        deepin-default-settings-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  dde-desktop
@@ -44,9 +44,9 @@ install -d %{buildroot}%{_sysconfdir}/skel/{Desktop,Documents,Downloads,Pictures
 install -d %{buildroot}%{_sysconfdir}/skel/.local/share/Trash
 install -Dm644 %{_datadir}/applications/dde-computer.desktop %{buildroot}%{_sysconfdir}/skel/Desktop/dde-computer.desktop
 install -Dm755 %{_datadir}/applications/dde-trash.desktop %{buildroot}%{_sysconfdir}/skel/Desktop/dde-trash.desktop
-for file in `ls /usr/share/wallpapers/deepin/`
+for file in `ls /usr/share/wallpapers/lingmo/`
 do
-    ln -svf /usr/share/wallpapers/deepin/$file %{buildroot}%{_sysconfdir}/skel/Pictures/Wallpapers/$file
+    ln -svf /usr/share/wallpapers/lingmo/$file %{buildroot}%{_sysconfdir}/skel/Pictures/Wallpapers/$file
 done
 
 %post

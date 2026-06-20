@@ -89,10 +89,10 @@ if [ ! -d $skel_wallpapers ]; then
     mkdir -p $skel_wallpapers
 fi
 
-for file in `ls /usr/share/wallpapers/deepin/`
+for file in `ls /usr/share/wallpapers/lingmo/`
 do
     if [ ! -f $skel_wallpapers/$file ]; then
-        ln -s  /usr/share/wallpapers/deepin/$file $skel_wallpapers/$file
+        ln -s  /usr/share/wallpapers/lingmo/$file $skel_wallpapers/$file
 
     fi
 done
