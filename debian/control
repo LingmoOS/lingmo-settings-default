@@ -7,22 +7,22 @@ Build-Depends:
 Standards-Version: 4.5.0
 Homepage: https://github.com/LingmoOS/lingmo-settings-default
 
-Package: deepin-settings-default
+Package: lingmo-settings-default
 Architecture: all
 Depends:
- deepin-settings-default-tuning,
+ lingmo-settings-default-tuning,
  deepin-wallpapers,
  iw,
  python3,
  python3-gi,
  ${misc:Depends},
- deepin-keyring,
+ lingmo-keyring,
  distro-info-data,
  eject,
  fonts-noto, 
  fonts-symbola
 Pre-Depends: 
- deepin-home (>= 1.6.0),
+ lingmo-home (>= 1.6.0),
 Suggests:
  binfmt-support,
 Conflicts:
@@ -39,7 +39,7 @@ Description: Default settings for deepin operating system
  This package does tweaking to provide better experience for deepin operating
  system.
 
-Package: deepin-settings-default-tuning
+Package: lingmo-settings-default-tuning
 Architecture: all
 Depends:
  ${misc:Depends},

@@ -12,7 +12,7 @@ URL:            https://github.com/linuxdeepin/default-settings
 Source0:        deepin-default-settings-%{version}.tar.gz
 
 BuildArch:      noarch
-BuildRequires:  dde-desktop
+BuildRequires:  lingmo-desktop
 BuildRequires:  deepin-wallpapers
 
 %description
