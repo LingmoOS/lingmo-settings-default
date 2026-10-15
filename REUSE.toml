@@ -94,7 +94,6 @@ SPDX-FileCopyrightText = "None"
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
-path = "files/Deepin.mirrors"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "None"
 SPDX-License-Identifier = "CC0-1.0"

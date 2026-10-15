@@ -1,3 +1,13 @@
+lingmo-settings-default (1.0.4.lingmo.1) unstable; urgency=medium
+
+  * 不再提供 python-apt 模板，避免与 lingmo-desktop-base 装同一路径冲突
+    files/Deepin.info 与 files/Deepin.mirrors 原来同时被 lingmo-desktop-base 和本包
+    安装到 /usr/share/python-apt/templates/，属于同一份文件被两个包提供。现统一由
+    lingmo-desktop-base 以 Lingmo.info / Lingmo.mirrors 提供，本包删除这两份文件及其
+    安装规则。
+
+ -- Lingmo OS Team <team@lingmo.org>  Thu, 15 Oct 2026 20:00:04 +0800
+
 lingmo-settings-default (1.0.3.lingmo.1) unstable; urgency=medium
 
   * new release for Lingmo OS.
