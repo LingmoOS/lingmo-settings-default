@@ -1,3 +1,9 @@
+lingmo-settings-default (1.0.5.lingmo.1) unstable; urgency=medium
+
+  * skel/qt-theme.ini 的 IconThemeName 改为 lingmo。
+
+ -- Lingmo OS Team <team@lingmo.org>  Sat, 17 Oct 2026 22:50:23 +0800
+
 lingmo-settings-default (1.0.4.lingmo.1) unstable; urgency=medium
 
   * 不再提供 python-apt 模板，避免与 lingmo-desktop-base 装同一路径冲突
